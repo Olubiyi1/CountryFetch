@@ -1,6 +1,6 @@
 *{
     font-family:Nunito;
-    box-sizing: b;
+    box-sizing: border-box;
 }
 body{
     margin: 0px;
@@ -24,7 +24,6 @@ top{
     height: 70px;
     align-items: center;
     border-bottom: 2px solid rgb(184, 182, 182);
-    max-width: 1200px;
     margin: 0px auto;
     h1{
         font-size: 1.5em;
@@ -41,7 +40,7 @@ section{
     justify-content: space-between;
     margin: 20px auto 40px;
     align-items: center;
-    max-width: 1150px;
+    width: 1150px;
 
     input{
         border-radius: 5px;
@@ -88,10 +87,6 @@ input[type=text]{
 input[type=text]:focus{
   outline: none;
 }
-/* .cardInfo{
-    display: flex;
-    flex-wrap: wrap;
-} */
 @media screen and (min-width:0px){
     .cards{
         grid-template-columns: 1fr;
