@@ -1,6 +1,6 @@
 *{
     font-family:Nunito;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 body{
     margin: 0px;
@@ -13,8 +13,8 @@ body{
 }
 .cards {
     display: grid;
-    grid-template-columns: repeat(4,1fr);  
-    gap: 50px;
+    grid-template-columns: repeat(3,1fr);  
+    gap: 20px;
     margin: 20px 0px;
 
 }
@@ -40,7 +40,6 @@ section{
     justify-content: space-between;
     margin: 20px auto 40px;
     align-items: center;
-    width: 1150px;
 
     input{
         border-radius: 5px;
