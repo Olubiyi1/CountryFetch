@@ -3,7 +3,6 @@
     box-sizing: b;
 }
 body{
-    /* max-width: 1200px; */
     margin: 0px;
     padding: 0px;
     background-color: rgb(232, 232, 232);
@@ -25,6 +24,8 @@ top{
     height: 70px;
     align-items: center;
     border-bottom: 2px solid rgb(184, 182, 182);
+    max-width: 1200px;
+    margin: 0px auto;
     h1{
         font-size: 1.5em;
         margin: 0px 20px;
@@ -38,13 +39,12 @@ section{
     height: 70px;
     display: flex;
     justify-content: space-between;
-    margin: 20px 20px 40px;
+    margin: 20px auto 40px;
     align-items: center;
+    max-width: 1150px;
 
     input{
         border-radius: 5px;
-        /* width: 400px; */
-        /* height: 20px; */
     }
     #dropdown{
         width: 250px;
@@ -88,10 +88,10 @@ input[type=text]{
 input[type=text]:focus{
   outline: none;
 }
-.cardInfo{
+/* .cardInfo{
     display: flex;
     flex-wrap: wrap;
-}
+} */
 @media screen and (min-width:0px){
     .cards{
         grid-template-columns: 1fr;
