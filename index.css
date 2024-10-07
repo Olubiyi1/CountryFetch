@@ -1,6 +1,6 @@
 *{
     font-family:Nunito;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body{
     margin: 0px;
@@ -13,8 +13,8 @@ body{
 }
 .cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);  
-    gap: 20px;
+    grid-template-columns: repeat(4,1fr);  
+    gap: 50px;
     margin: 20px 0px;
 
 }
@@ -23,8 +23,9 @@ top{
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    border-bottom: 2px solid rgb(184, 182, 182);
+    /* border-bottom: 2px solid rgb(184, 182, 182); */
     margin: 0px auto;
+   
     h1{
         font-size: 1.5em;
         margin: 0px 20px;
@@ -33,6 +34,9 @@ top{
         font-size: 1.5em;
         margin: 0px 20px;
     }
+}
+#darkmode,#lightmode{
+    cursor: pointer;
 }
 section{
     height: 70px;
@@ -43,6 +47,7 @@ section{
 
     input{
         border-radius: 5px;
+        background-color: white;
     }
     #dropdown{
         width: 250px;
@@ -86,6 +91,8 @@ input[type=text]{
 input[type=text]:focus{
   outline: none;
 }
+
+
 @media screen and (min-width:0px){
     .cards{
         grid-template-columns: 1fr;

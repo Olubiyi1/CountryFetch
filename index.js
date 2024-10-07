@@ -30,7 +30,7 @@ window.onload=loadAllCountry();
 function dropdown(){ 
           
     const region = document.querySelector("#dropdown").value;
-    console.log(region);
+    // console.log(region);
     const filterRegion =`https://restcountries.com/v3.1/region/${region}`
     fetch(filterRegion)
     .then(response=>response.json())
